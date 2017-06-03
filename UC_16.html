@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trivia Questions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="UC_16.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Trivia Questions</h1>
+        <button class='btn btn-primary btn-large' onclick="findQuestion('question')">Generate Question</button>
+        <br>
+        <br>
+        <div id="response" class=""></div>
+        <button class='btn btn-success btn-large' onclick="responseTrue()">True</button>
+        <button class='btn btn-danger btn-large' onclick="responseFalse()">False</button>
+        <br>
+        <br>
+        <div id="answer" class=""></div>
+    </div>
+</body>
+
+</html>
