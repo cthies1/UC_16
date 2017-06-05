@@ -50,7 +50,7 @@ function responseFalse() {
         document.getElementById("answer").innerHTML = "CORRECT!"
     }
     else {
-        document.getElementById("answer").className = "alert alert-warning";
+        document.getElementById("answer").className = "alert alert-danger";
         document.getElementById("answer").innerHTML = "The correct answer is " + response.results[0]["correct_answer"];
     }
 }
